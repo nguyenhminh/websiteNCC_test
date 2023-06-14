@@ -10,3 +10,7 @@ function changeActive(event) {
     // Thêm lớp 'active' vào phần tử được click
     event.target.classList.add('active');
 }
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+}
